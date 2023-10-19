@@ -8,3 +8,12 @@ CREATE TABLE STUDENTS (
                            PRIMARY KEY (id)
 );
 
+DROP TABLE IF EXISTS FACULTIES;
+CREATE TABLE COURSES (	
+                           id int NOT NULL AUTO_INCREMENT,
+                           name varchar(15),
+                           faculty varchar(20),
+                           hours int,
+                           PRIMARY KEY (id)
+);
+
